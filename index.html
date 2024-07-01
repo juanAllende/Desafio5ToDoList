@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío - Todo List</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">Todo List</h1>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h3>Resumen de Tareas</h3>
+                <ul id="resumen-tareas" class="list-group">
+                    <!-- Resumen de tareas se renderiza aquí -->
+                </ul>
+                <p>Total de tareas: <span id="total-tareas">0</span></p>
+                <p>Total de tareas realizadas: <span id="tareas-realizadas">0</span></p>
+            </div>
+            <div class="col-md-8">
+                <h3>Agregar Nueva Tarea</h3>
+                <div class="input-group mb-3">
+                    <input type="text" id="nueva-tarea" class="form-control" placeholder="Descripción de la tarea">
+                    <button class="btn btn-primary" id="agregar-tarea">Agregar Tarea</button>
+                </div>
+                <h3>Lista de Tareas</h3>
+                <ul id="lista-tareas" class="list-group">
+                    <!-- Lista de tareas se renderiza aquí -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
